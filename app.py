@@ -1,1 +1,5 @@
 print("Hello!")
+print("Eu amo torta de abacaxi'123' ")
+print(20 // 5)
+print(20 % 5)
+print(20 / 5)
