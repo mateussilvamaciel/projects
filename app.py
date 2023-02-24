@@ -1,5 +1,5 @@
-print("Hello!")
-print("Eu amo torta de abacaxi'123' ")
-print(20 // 5)
-print(20 % 5)
-print(20 / 5)
+a = 3.0
+b = 4.0
+c = (a ** 2 + b ** 2) ** 0.5
+print("c =", c)
+
