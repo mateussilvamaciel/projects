@@ -1,5 +1,3 @@
-a = 3.0
-b = 4.0
-c = (a ** 2 + b ** 2) ** 0.5
-print("c =", c)
-
+leg_a = float(input("Input first leg length: "))
+leg_b = float(input("Input second leg length: "))
+print("Hypotenuse length is", (leg_a**2 + leg_b**2) ** .5)
