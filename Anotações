@@ -1,0 +1,45 @@
+\n -> usado dentro do print para fazer a quebra de linha
+Argumentos de palavras chaves:
+end = " " -> determina os caracteres que a função print() envia para a saída, uma vez que ela atinge o fim de seus argumentos de posição.
+print("meu nome é", end=" ")
+print("Filho")
+output:
+meu nome é Filho
+
+sep = "separador" -> argumento de palavra chave que separa os argumentos da função print.
+print("My","name","is", sep="-",end="_")
+print("son","of","God", sep="+", end="*")
+output:
+My-name-is_son+of+God*
+
+0o octal
+0x hexadecimal
+
+3E8 = 300000000 exp
+6.62607E-34 = 6,62607 x 10-34
+
+string "" ''
+print("Eu gosto \"Monty Python\"")
+print('Eu gosto "Monty Python"')
+
+Operadores Basicos 
++ soma
+- subtração
+* multiplicação
+/ divisão sempre float saida
+// divisão com os resultados sempre arredondados*(Esquerda para direita)
+% percentual -O resultado do operador é o restante após a divisão do número inteiro.
+** exponiciação(Direita para esquerda)
+
+Prioridade
+1	**	
+2	+, - (observação: operadores unários localizados ao lado direito do operador de potência se vinculam mais fortemente))	unário
+3	*, /, //, %	
+4	+, -	⁪binário
+
+Expressão	               Operador de atalho
+i = i + 2 * j               i += 2 * j
+var = var / 2               var /= 2
+rem = rem % 10              rem %= 10
+j = j - (i + var + rem)     j -= (i + var + rem)
+x = x ** 2                  x **= 2
