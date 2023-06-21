@@ -1,5 +1,8 @@
-print('Greg\'s book.')
-print("'Greg's book.'")
-print('"Greg\'s book."')
-print("Greg\'s book.")
-print("Greg's book.")
+x = int(input())
+y = int(input())
+ 
+x = x / y
+
+#y = y / x
+ 
+print(x)

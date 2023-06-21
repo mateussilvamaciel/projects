@@ -11,17 +11,17 @@ print("My","name","is", sep="-",end="_")
 print("son","of","God", sep="+", end="*")
 output:
 My-name-is_son+of+God*
-
+---------------------------------------------------------------------------------------------------------------------------------------------------
 0o octal
 0x hexadecimal
 
 3E8 = 300000000 exp
 6.62607E-34 = 6,62607 x 10-34
-
+---------------------------------------------------------------------------------------------------------------------------------------------------
 string "" ''
 print("Eu gosto \"Monty Python\"")
 print('Eu gosto "Monty Python"')
-
+---------------------------------------------------------------------------------------------------------------------------------------------------
 Operadores Basicos 
 + soma
 - subtração
@@ -43,3 +43,22 @@ var = var / 2               var /= 2
 rem = rem % 10              rem %= 10
 j = j - (i + var + rem)     j -= (i + var + rem)
 x = x ** 2                  x **= 2
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Função input()
+- Resultado é um string
+input()
+imput("digite sei lá o que")
+int(input())
+float(input())
+str(float/int)
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Concatenação de String usa +
+comida= input("digite uma comida")
+recheio= input("digite um recheio para a comida")
+print("Eu gosto de" + comida + " com " + recheio +)
+output: Eu gosto de pastel com queijo
+
+Replicação usa o sinal *
+"James" * 3 gera "JamesJamesJames"
+3 * "an" gera "ananan"
+5 * "2" (or "2" * 5) gera "22222" (não10!)
