@@ -74,3 +74,17 @@ Prioridade	Operadora
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 função max() e min()- encontra o maior ou menor valor 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+while x>y :
+    encremento
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+for i in range(a,b,c)
+a- Inicio
+b- tamanho
+c- incremento
+i- é um incremento tambem
+break - sai do loop imediatamente e termina incondicionalmente a operação do loop; o programa começa a executar a instrução mais próxima após o corpo do loop;
+continue - se comporta como se o programa tivesse chegado ao fim do corpo; o próximo turno é iniciado e a expressão de condição é testada imediatamente.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
