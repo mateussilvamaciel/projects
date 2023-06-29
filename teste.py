@@ -1,14 +1,12 @@
-counter = 0
-maior_numero = 0
-while True:
-    number = int(input("Digite um número ou digite -1 para terminar o programa: "))
-    if number == -1:
-        break
-    counter += 1
-    if number > maior_numero:
-        maior_numero = number
+blocks = int(input("Insira o número de blocos:"))  
+ # Escreva seu código aqui.
+altura = 00
+for i in range(blocks):
+    if
 
-if counter != 0:
-    print("TO maior número é", maior_numero)
-else:
-    print("Você não inseriu nenhum número.")
+    print("A altura da pirâmide:", h)
+    print("blocks",5)
+    count += 1
+    h += 1
+
+
