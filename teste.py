@@ -1,12 +1,11 @@
 blocks = int(input("Insira o número de blocos:"))  
  # Escreva seu código aqui.
-altura = 00
+qtd = 1
 for i in range(blocks):
-    if
+    for i in range(qtd):
+        print("#", end=" ")
+    print(" ")
+    qtd = qtd + 1
 
-    print("A altura da pirâmide:", h)
-    print("blocks",5)
-    count += 1
-    h += 1
 
 
